@@ -1,0 +1,36 @@
+# CrowdSense AI
+
+## AI-Powered Intelligent Crowd Management & Safety System
+
+### Problem Statement
+Large gatherings at public places such as railway stations, temples, concerts, malls, and stadiums can become dangerous due to overcrowding. Traditional CCTV systems only record footage and do not provide real-time analysis or decision support.
+
+### Solution
+CrowdSense AI is an intelligent crowd management system that uses Artificial Intelligence and Computer Vision to:
+
+- Detect people in real time
+- Count people automatically
+- Estimate crowd density
+- Identify high-risk zones
+- Generate alerts
+- Recommend safety actions to authorities
+
+### Tech Stack
+
+- Python
+- YOLOv8
+- OpenCV
+- FastAPI
+- React
+- Tailwind CSS
+- PostgreSQL
+
+### Team
+
+Member 1 – AI & Computer Vision
+
+Member 2 – Backend
+
+Member 3 – Frontend
+
+Member 4 – Project Management, Integration & Documentation
