@@ -1,5 +1,5 @@
 if (localStorage.getItem("crowdsenseLoggedIn") === "true") {
-    window.location.href = "../dashboard/dashboard.html";
+    window.location.href = "dashboard.html";
 }
 
 // Password Show / Hide
@@ -30,7 +30,7 @@ if (form) {
 
         const username = document.getElementById("username").value.trim();
         const password = document.getElementById("password").value.trim();
-        const validUsername = "admin";
+        const validUsername = ["admin", "crowdsenseai"];
         const validPasswords = ["admin123", "123456"];
 
         if (username === "" || password === "") {
@@ -59,7 +59,7 @@ if (form) {
             localStorage.setItem("crowdsenseLoggedIn", "true");
 
             setTimeout(() => {
-                window.location.href = "../dashboard/dashboard.html";
+                window.location.href = "dashboard.html";
             }, 1000);
         }, 2000);
     });
