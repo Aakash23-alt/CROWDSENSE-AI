@@ -1,10 +1,10 @@
 from fastapi import APIRouter
-from app.database import SessionLocal
-from app.models import CrowdData
-from app.schemas import CrowdDataCreate
-from app.ai.predictor import predict_people
-from app.schemas import PredictionRequest
-from app.ai.predictor import predict_people
+from backend.database import SessionLocal
+from backend.models import CrowdData
+from backend.schemas import CrowdDataCreate
+from backend.ai.predictor import predict_people
+from backend.schemas import PredictionRequest
+from backend.ai.predictor import predict_people
 
 router = APIRouter()
 

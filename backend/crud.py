@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from app.models import CrowdData
-from app.schemas import CrowdDataCreate
+from backend.models import CrowdData
+from backend.schemas import CrowdDataCreate
 
 
 def create_crowd_data(db: Session, crowd: CrowdDataCreate):

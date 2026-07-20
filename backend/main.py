@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.database import engine, Base
-from app.routers import crowd
+from backend.database import engine, Base
+from backend.routers import crowd
 
 app = FastAPI()
 
